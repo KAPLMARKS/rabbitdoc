@@ -1,0 +1,48 @@
+POST http://localhost:8080/hokage/be_hokage
+Content-Type: application/json
+
+{
+  "firstName": "Marat",
+  "lastName": "Shigabutdinov",
+  "age": 20
+}
+
+###
+POST http://localhost:8080/hokage/hokage_order
+Content-Type: application/json
+
+{
+"firstName": "Marat",
+"lastName": "Shigabutdinov",
+"age": 20
+}
+
+###
+POST http://localhost:8080/shinobi_war/getmoney
+Content-Type: application/json
+
+{
+  "firstName": "Marat",
+  "lastName": "Shigabutdinov",
+  "age": 20
+}
+###
+
+POST http://localhost:8080/naruto
+Content-Type: application/json
+
+{
+  "firstName": "Marat",
+  "lastName": "Shigabutdinov",
+  "age": 20
+}
+###
+
+POST http://localhost:8080/shinobi_war/war
+Content-Type: application/json
+
+{
+  "firstName": "Marat",
+  "lastName": "Shigabutdinov",
+  "age": 20
+}
